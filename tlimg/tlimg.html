@@ -4,9 +4,33 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
 	<title>Image</title>
 </head>
+<style>
+	* {margin: 0px; padding: 0px;}
+
+	body {background-color: aqua;}
+
+	.title {background-color: #2c3e50; position: fixed; width: 100%;}
+	nav {display: flex;justify-content: space-between; padding: 10px;}
+	nav>ul>i {color: #7f8c8d; font-size: 25px;}
+
+</style>
 <body>
-	
+	<div class="title">
+		<nav>
+			<ul id="revert"><i class="fa-solid fa-chevron-left"></i></a></ul>
+			<ul id="fonder"><i class="fa-sharp fa-solid fa-folder-open"></i></a></ul>
+		</nav>
+	</div>
 </body>
+<script>
+	$(document).ready(function(){
+		$('#revert').click(function(){
+			window.location.href = "/index.html"
+		})
+	})
+</script>
 </html>
