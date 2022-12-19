@@ -12,6 +12,6 @@ $(document).ready(function(){
 	})
 
 	$(".code").click(function () { 
-		window.location.href = "code/code.html"
+		window.location.href = "tlcode/tlcode.html"
 	})
 })
