@@ -3,27 +3,29 @@
 }
 #wrapper {justify-content: center;flex-direction: column;align-items: center;
 }
-.home {
-	position: fixed;
-	background-color: #1abc9c;
-	top: 0;width: 100%;height: 50px;
-}
+.home {position: fixed;background-color: #1abc9c;top: 0;width: 100%;height: 50px;}
 .home>li {padding: 13px;text-align: center;list-style: none;}
 .home>li>a {font-weight: bold;font-size: 25px;}
+
 .none {margin: 53px; background-color: blueviolet;}
 
 
 .file {background-color: #181c1a; margin-bottom: 1px;}
 .file>li {list-style: none; padding: 30px 70px;}
-.file>li>i {font-size: 100px; color: #f39c12;}
+.file>li>i {font-size: 100px; color: #f39c12;cursor: pointer;}
 .file>li>a {color: red; padding: 13px; text-decoration: none; font-size: 25px;}
 
 .img {background-color: #181c1a; margin-bottom: 1px;}
-.img>li {list-style: none; padding: 35px 70px;}
+.img>li {list-style: none; padding: 35px 70px;cursor: pointer;}
 .img>li>i {font-size: 90px; color: #f39c12;}
 .img>li>a {color: red; padding: 13px; text-decoration: none; font-size: 25px;}
 
 .link {background-color: #181c1a; margin-bottom: 1px;}
 .link>li {list-style: none; padding: 35px 60px;}
-.link>li>i {font-size: 80px; color: #f39c12;}
+.link>li>i {font-size: 80px; color: #f39c12;cursor: pointer;}
 .link>li>a {color: red; padding: 13px; text-decoration: none; font-size: 25px;}
+
+.code {background-color: #181c1a; margin-bottom: 1px;}
+.code>li {list-style: none; padding: 35px 60px;}
+.code>li>i {font-size: 80px; color: #f39c12;cursor: pointer;}
+.code>li>a {color: red; padding: 13px; text-decoration: none; font-size: 25px;}
